@@ -118,18 +118,18 @@ class _SignUpPageState extends State<SignUpPage> {
                   const Text('Perempuan'),
                 ],
               ),
-              Row(
-                children: [
-                  Checkbox(
-                    value: _accepted,
-                    onChanged: (v) =>
-                        setState(() => _accepted = v ?? false),
-                  ),
-                  const Expanded(
-                    child: Text('Saya setuju syarat & ketentuan'),
-                  ),
-                ],
-              ),
+              // Row(
+              //   children: [
+              //     Checkbox(
+              //       value: _accepted,
+              //       onChanged: (v) =>
+              //           setState(() => _accepted = v ?? false),
+              //     ),
+              //     const Expanded(
+              //       child: Text('Saya setuju syarat & ketentuan'),
+              //     ),
+              //   ],
+              // ),
               const SizedBox(height: 12),
               SizedBox(
                 width: double.infinity,
